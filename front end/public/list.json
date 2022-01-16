@@ -1,0 +1,314 @@
+{
+  "typeOfStone": {
+    "names": [
+      "typeA",
+      "typeB",
+      "typeC",
+      "typeD"
+    ],
+    "labels": [
+      "钙结石",
+      "尿酸结石",
+      "鹿角形结石",
+      "胱氨酸结石"
+    ]
+  },
+  "list": [
+    {
+      "name": "name",
+      "label": "姓名",
+      "option": "",
+      "type": 2,
+      "weight": 1
+    },
+    {
+      "name": "sex",
+      "label": "性别",
+      "option": [
+        "女",
+        "男"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "age",
+      "label": "年龄",
+      "option": 1,
+      "type": 1,
+      "weight": 1
+    },
+    {
+      "name": "marrialStatus",
+      "label": "婚姻状况",
+      "option": [
+        "未婚",
+        "已婚"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "birthPlace",
+      "label": "出生地",
+      "option": [
+        "Sowme'eh sara",
+        "Lahijan",
+        "Rasht",
+        "Foman",
+        "Siahkal",
+        "Lasht-e Nesha",
+        "Anzali",
+        "Shaft",
+        "Langarud",
+        "Tehran",
+        "Koochesfahan",
+        "Astaneh",
+        "Talesh",
+        "Chaboksar",
+        "Tonekabon",
+        "Amlash",
+        "Rudbar",
+        "Hashtpar",
+        "Sangar",
+        "Masal",
+        "Rezvanshahr",
+        "Khalkhal",
+        "Rudsar",
+        "Kiyashahr",
+        "Khomam",
+        "Emamzadeh Hashem",
+        "Ardabil",
+        "Ramsar",
+        "Qazvin",
+        "Hamedan",
+        "Asalem",
+        "Astara",
+        "Manjil",
+        "Lowshan",
+        "Birjand",
+        "Sari",
+        "Shahsavar",
+        "Zanjan",
+        "Hashtrud",
+        "khoshke Bijar",
+        "Ahvaz",
+        "Ziabar",
+        "Saravan",
+        "Looleman"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "c_C",
+      "label": "日常症状",
+      "option": [
+        "腰痛",
+        "尿路感染",
+        "尿中带血",
+        "虚弱、嗜睡",
+        "腹痛",
+        "咳嗽",
+        "未知"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "fever",
+      "label": "发烧症状",
+      "option": [
+        "是",
+        "否",
+        "未知"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "nausea",
+      "label": "恶心症状",
+      "option": [
+        "是",
+        "否",
+        "未知"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "gh",
+      "label": "尿中带血",
+      "option": [
+        "是",
+        "否",
+        "未知"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "dm",
+      "label": "糖尿病",
+      "option": [
+        "是",
+        "否",
+        "未知"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "nh",
+      "label": "住院史",
+      "option": [
+        "是",
+        "否",
+        "未知"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "ce",
+      "label": "血凝块",
+      "option": [
+        "是",
+        "否",
+        "未知"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "cr",
+      "label": "肌酐水平(Cr)",
+      "option": [
+        "低",
+        "高",
+        "正常"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "hb",
+      "label": "血红蛋白水平(HB)",
+      "option": [
+        "低",
+        "高",
+        "正常"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "bun",
+      "label": "尿素水平(BUN)",
+      "option": [
+        "低",
+        "高",
+        "正常"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "smoking",
+      "label": "是否有吸烟的习惯",
+      "option": [
+        "是",
+        "否",
+        "未知"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "alcohol",
+      "label": "是否有饮酒的习惯",
+      "option": [
+        "是",
+        "否",
+        "未知"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "opium",
+      "label": "是否有吸毒的习惯",
+      "option": [
+        "是",
+        "否",
+        "未知"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "bp",
+      "label": "血压水平(BP)",
+      "option": [
+        "低",
+        "高",
+        "正常",
+        "未知"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "fh",
+      "label": "家人是否患有类似疾病",
+      "option": [
+        "是",
+        "否",
+        "未知"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "uricAcid",
+      "label": "尿酸水平",
+      "option": [
+        "低",
+        "高",
+        "正常",
+        "未知"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "ca",
+      "label": "血钙水平",
+      "option": [
+        "低",
+        "高",
+        "正常",
+        "未知"
+      ],
+      "type": 0,
+      "weight": 1
+    },
+    {
+      "name": "diseaseDiagnosis",
+      "label": "疾病诊断",
+      "option": [
+        "肾髓质结石",
+        "肾萼结石",
+        "肾盂结石",
+        "输尿管结石",
+        "膀胱结石",
+        "肾结水",
+        "多囊肾病",
+        "未知"
+      ],
+      "type": 0,
+      "weight": 1
+    }
+  ]
+}
