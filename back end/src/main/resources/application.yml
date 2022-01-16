@@ -1,0 +1,28 @@
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: 7200
+spring:
+  application:
+    name: UCDAS
+  redis: 
+    host: 127.0.0.1
+    port: 6379
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306?serverTimezone=UTC&Unicode=true&characterEncoding=utf8
+    username: root
+    password: 4CgzbKaJne0or@fQs2
+swagger:
+  basePackage: com.JNUHealthSupervisor.ucdas.controller
+  title: Urinary Calculi Diagnosis Assistant System
+  description: 泌尿结石诊断辅助系统
+  version: 1.0.0
+  license: CC BY-NC-SA-4.0
+  licenseUrl: https://creativecommons.org/licenses/by-nc-sa/4.0/
+springfox:
+  documentation:
+    swagger:
+      v2:
+        host: health.raccooncc.top
