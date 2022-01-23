@@ -1,6 +1,14 @@
 # 泌尿结石诊断系统 Urolithiasis-diagnostic-system
 
 The form-based urolithiasis diagnosis system includes a complete front end and back end
+这个基于表单的结石分析系统包括完整的前端和后端
+
+The frames used inclue vue, sprint boot and weka.
+这个项目用到的框架有vue、spring boot和weka平台
+
+用到的数据集只有200个样本，实际使用时请重新训练。
+
+内部使用到的模型为神经网络模型
 
 ## 1. 泌尿结石诊断辅助系统简介
 
